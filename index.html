@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Teka's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/70cdc9f12d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+        <img class="logo" src="/images/creator.jpg" >
+        <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="close_menu()"></i>
+    </ul>
+        <i class="fa-solid fa-bars" onclick="open_menu()"></i>
+    </nav>
+    <div class="header_text">
+    <p>SOFTWARE ENGINEER
+        <br>(<span>DATA</span>-SCIENTIST)
+    </p>
+    <h1>I am <span> Jordan Teka</span> <br> from Uganda.</h1>
+    </div>
+    </div>
+    </div>
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="about_column_1"><img src="images/Screenshot_20231112-085435.jpg"></div>
+                <div class="about_column_2"> 
+                    <h1 class="about_header">About Me.</h1>
+                    <p>I am a Self Taught Software Engineer, currently pursuing a Bachelors Degree in Computer Science at Isbat University Uganda.</p>
+                <div class="tab_titles">
+                    <div class="tab_links active_link" onclick="openTab('skills')"><p>Skills</p></div>
+                    <div class="tab_links" onclick="openTab('experience')"><p>Experience</p></div>
+                    <div class="tab_links" onclick="openTab('education')"><p>Education</p></div>
+                </div>
+                <div class="tab_contents active_tab" id="skills">
+                    <ul>
+                        <li><span>WEB-DEVELOPMENT</span><br>Front_End. <br>Back_end.
+                        </li>
+                        <li><span>DATA-SCIENCE</span><br>Data Analysis. <br>Data Modeling.
+                        </li>
+                        <li><span>CHAT-BOT DEVELOPMENT</span><br>Machine Learning. <br>Deep Learning.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab_contents" id="experience">
+                    <ul>
+                        <li><span>PROJECTS</span><br>Developed my own portfolio.
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab_contents" id="education">
+                    <ul>
+                        <li><span>YOUTUBE_TUTORIALS</span><br>Web-development <br>Data Science. <br>Chat Bot Development.
+                        </li>
+                        <li><span>ISBAT UNIVESITY</span><br>(2023-2026)→Bachelors Degree In Computer Science. 
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------services------------------------------------------------>
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub_titles">My Services.</h1>
+            <div class="services_list">
+                <div>
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Web-development</h2>
+                    <p>Both Front-end and Back-end. </p>
+                    <a href="#"></i>Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Data Science</h2>
+                    <p>Both Analysis and Data Modeling. </p>
+                    <a href="#"></i>Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-rocketchat"></i>
+                    <h2>Chat Bot Development</h2>
+                    <p>Both live and text. </p>
+                    <a href="#"></i>Learn More</a>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <!-- ---------------------------------------------portfolio----------------------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1>My Projects.</h1>
+            <div class="project_list">
+                <div class="project"><img src="images/website.png">
+                    <div class="layer">
+                        <h3>PORTFOLIO WEBSITE.</h3>
+                        <P>Shows you my personal experience in software engineering.</P>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/data.png">
+                    <div class="layer">
+                        <h3>DATA-SCIENCE IN PROGRESS.</h3>
+                        <P>Collects,Analyses and creates data models using Machine Learning.</P>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project">
+                    <img src="images/actu-chat-bot.jpeg">
+                    <div class="layer">
+                        <h3>CHAT-BOT IN PROGRESS.</h3>
+                        <P>Improve Customer Service and communication in relation to feedback.</P>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <button class="button" onclick="alert('more projects')">See More....</button>
+        </div>
+    </div>
+
+    <!--  -----------------------------------contact------------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+            <div class="contact_list">
+                <h1>Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> jordanteka256@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +256 755048619.</p>
+                <div class="media-icons">
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="button b2 download" > <a href="images/creator.jpg" download>Download CV</a></div>
+
+            </div>
+            <div class="contact_form">
+                <form class="form" >
+                    <label for="name" name="name" >Name</label>
+                    <input type="text" id="name" name="name" placeholder="Exp jordan teka" required>
+                    <label for="email" name="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Exp 1234@gmail.com" required>
+                    <label for="message" name="message" >Message</label>
+                    <textarea id="message" rows="6" name="message" placeholder="Exp this is my message"></textarea>
+                    <button type="submit" class="button b2">Submit</button>
+                </form>
+            </div>
+            </div>
+        </div>
+        <div class="copyright"><p>CopyRight©Jordan teka. Made by jordan teka </p></div>
+    </div>
+<script src="functions.js">
+</script>
+</body>
+</html>
